@@ -1,0 +1,185 @@
+ul {
+	list-style: none;
+}
+
+#logo {
+  width: 600px;
+}
+
+.header {
+  text-align: center;
+  background: url(../img/headerr.jpg)no-repeat fixed;
+  background-size: cover;
+/*  background-position: center -500px;
+*/  padding-top: 20px;
+  padding-bottom: 20px; }
+  .header .main-header {
+    color: #666; }
+
+.fa-shopping-cart {
+  color: #F2F35A;
+}
+
+
+
+.header-subnav {
+  background-color: black;
+  float: none;
+  position: relative;
+  top: 1.3rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 0px; }
+  .header-subnav li {
+    float: none;
+    display: inline-block; }
+    .header-subnav li a {
+      padding: 0.9rem 1.5rem 0.75rem;
+      font-size: 1rem;
+      color: #fff;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px; }
+      .header-subnav li a.is-active {
+      	background-color: #F2F35A;
+        color: #333; }
+      .header-subnav li a:hover {
+      	background-color: #F2F35A;
+        color: #333;
+        transition: all .25s ease-in-out; }
+
+
+
+#listingspace:hover {
+/*  background-color: red;
+*/}
+
+/*------Homepage-----*/
+
+#top-orbit {
+  max-width: 970px;
+  max-height: 300px;
+}
+#welcome {
+  margin:20px 10px;
+}
+
+
+
+
+
+/*------About-----*/
+
+.subtitle {
+  background-color: #F2F35A;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+/*------Shop-----*/
+
+#singlelisting #description {
+  float: right;
+  max-width: 400px;
+}
+
+
+#searchbox {
+padding-top: 10px;
+background-color: yellow;
+}
+
+#sortby {
+  padding-top: 45px;
+}
+
+
+#price {
+  color: #e64c3b;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#stock {
+  color: black;
+  background-color: #F2F35A;
+  text-align: center;
+  margin-top: 5px;
+  max-width: 400px;
+}
+
+#cartbuttons {
+  width: 100%;
+}
+
+
+/*------Contact-----*/
+
+#contact-buttons {
+  text-align: center;
+  background-color: white;
+}
+
+.emoji {
+  font-size: 50px;
+}
+
+
+/*------cart-----*/
+
+/*dropdown cart from header
+*/
+#dropdownimage {
+float: left;
+}
+
+#dropdowncartarea {
+  width: 130px;
+  background-color: grey;
+}
+
+#dropdownprice {
+  color: red;
+  font-size: 15px;
+}
+
+#cartarea {
+  
+}
+
+
+
+
+
+/*------footer-----*/
+
+.footer-subnav {
+  float: none;
+  position: relative;
+  background-color: black;
+  top: 4rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: 0; }
+  .footer-subnav li {
+    float: none;
+    display: inline-block; }
+    .footer-subnav li a {
+      padding: 0.9rem 1rem 0.75rem;
+      font-size: 0.875rem;
+      color: #fff;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      letter-spacing: 1px; }
+      .footer-subnav li a.is-active {
+      	background-color: #F2F35A;
+        color: #333; }
+      .footer-subnav li a:hover {
+      	background-color: #F2F35A;
+        color: #333;
+        transition: all .25s ease-in-out; }
